@@ -1,0 +1,53 @@
+
+
+/* You can EITHER define style elements by:
+    TAGNAME <body>, <ul>
+    Class ="" => .   
+    id = ""  =>  #   
+*/
+
+.displayContainer {
+  border: solid green;
+  /* height: 50px; */
+}
+
+.workContainer {
+    border: solid blue;
+    background-color: black;
+    color:grey;
+    margin:1em;
+    height: 450px;
+  }
+  .eduContainer {
+    border: solid peru;
+    height: 50px;
+  }
+  .referenceContainer {
+    border: solid red;
+    height: 50px;
+  }
+  .pic{
+    display: flex;
+    justify-content: space-between;
+  }
+  .bugs{
+    border-radius:50%;
+    width:200px;
+    height:200px;
+  }
+ .danielleContainer{
+    border:solid purple;
+    margin:1em;
+ }
+ .mainTitle,.subTitle{
+    text-align:center;
+    font-family:Abril Fatface;
+    border:double lightgrey;
+    margin:1em;
+    border-width:.2px;
+ }
+ .albulmArt{
+    border:solid grey;
+    margin-left:25%;
+    width:255px;
+ }
